@@ -1,22 +1,28 @@
 {
-  "name": "heroku-test",
+  "name": "foundation-static",
   "version": "1.0.0",
-  "description": "testing heroku",
+  "description": "An Express.js fork of the classic Zurb Template.",
   "main": "index.js",
   "scripts": {
     "start": "node server.js || nodemon server.js",
+    "git":"git status && git add -A && git commit -m \"changed these files\" && git push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HansUXdev/Heroku-test.git"
+    "url": "git+https://github.com/HansUXdev/foundation-static.git"
   },
   "author": "Hans McMurdy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HansUXdev/Heroku-test/issues"
+    "url": "https://github.com/HansUXdev/foundation-static/issues"
   },
-  "homepage": "https://github.com/HansUXdev/Heroku-test#readme",
+  "keywords": [
+    "foundation",
+    "foundation-sites",
+    "boilerplate"
+  ],
+  "homepage": "https://github.com/HansUXdev/foundation-static/#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.17.2",
