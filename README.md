@@ -1,5 +1,24 @@
 # Foundation-Static
-This is a Express.js fork of the classic [Zurb Template](https://github.com/zurb/foundation-zurb-template/). It takes advantage of the most advanced front-end framework by allowing you to utilize [Building BLocks](foundation.zurb.com/building-blocks/). That way you can spend less time reinventing the wheel and more time prototyping, customizing/theming and building out the backend.
+This is a Express.js fork of the classic [Zurb Template](https://github.com/zurb/foundation-zurb-template/). It takes advantage of the most advanced front-end framework by allowing you to utilize [Building Blocks](foundation.zurb.com/building-blocks/). That way you can spend less time reinventing the wheel and more time prototyping, customizing/theming and building out the backend. 
+
+Here is the [live](https://foundation-static.herokuapp.com/#) link.
+
+## Requirements
+- node and npm installed
+- nodemon installed
+- sass installed (?)
+- [foundation cli](https://github.com/zurb/foundation-cli) is recommended to be installed to take full advantage of front-end components
+- [heroko cli](https://devcenter.heroku.com/articles/heroku-cli) is recommended to be install
+
+
+## Try it out and let me know what you think.
+- Clone, Fork or download the project
+- Install everything ```npm i```
+- Start the project ```npm run start```
+- Install a new component ```foundation blocks install foundation-5-top-bar```
+- Commit to your own repo ```npm run git```
+- Deploy to Heroku ```heroku login``` then ```heroku create``` then whenever you need to push changes to the live site, ```npm run heroku```
+- Its that easy.
 
 ## Why did I make this? 
 Because I wanted a super lightweight MODERN server that is easy to learn, teach and use for projects.
