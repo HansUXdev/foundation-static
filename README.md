@@ -13,44 +13,49 @@ project root
 │   Procfile
 │   server.js
 │   ...
-└─── src
-│   └─── assets
-│   └─── img
-│   └─── js
+│   // Installing components aka building-blocks is easy
+│   // EX:foundation blocks install table-expand
+│   // Will add the file to js/building-blocks/ & scss/building-blocks/ & partials/building-blocks/
+│   // then app.js & app.scss will automatically be updated to include the component
+│   // gulp will then copy src/partials/building-blocks/ to view/block/ 
+│   // then compile everything else to ./public/
+└─── src/
+│   └─── data/
+│        ... // where .js files go for static prototyping data
+│   └─── partials/
 │     └─── building-blocks
-│     └─── components
-│     └─── lib
-│   └─── scss
-│     └─── building-blocks
-│     └─── components
-│     app.scss
-│     _settings.scss
-│     _block-settings.scss
-│   └─── partials
-│        └─── building-blocks
-└─── Publics
+│   └─── assets/
+│     └─── img/
+│     └─── js/
+│       └─── building-blocks/
+│       └─── components/
+│       └─── lib/
+│     └─── scss/
+│       └─── building-blocks/
+│       └─── components/
+└─── Publics/
 │   └─── ... // built from the gulpfile  
-└─── views
+└─── views/
 │   │ index.handlebars
 │   │ login.handlebars
 │   │ register.handlebars
-│   └─── admin
+│   └─── admin/
 │     └─── admin.handlebars
 │     └─── ... *.handlebars
-│   └─── layouts
+│   └─── layouts/
 │       └─── main.handlebars
 │       └─── dashboard.handlebars
 │       └─── offcanvas.handlebars
 │       └─── sidebar-left.handlebars
 │   └─── partials
 │        ... *.handlebars
-│        └─── building-blocks
-└─── models
-│   └─── mongoose   // mongoose schemas 
-│   └─── sequelize  // sequelize schemas
-└─── controllers
-│   │   admin.js
-│   │   home.js
-│   │   errors.js
-│   │   sessions.js
+│        └─── building-blocks/
+└─── models/
+│   └─── mongoose/   // mongoose schemas 
+│   └─── sequelize/  // sequelize schemas
+└─── controllers/
+│     └─── admin.js
+│     └─── home.js
+│     └─── errors.js
+│     └─── sessions.js
 ```
