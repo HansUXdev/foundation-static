@@ -252,7 +252,7 @@ function commit(cb){
 // Check the status of the repo, add all changes, 
 // commit changes and push
 
-gulp.task('heroku', function commit(cb){
+gulp.task('heroku', function (cb){
     var command = `git add -A && git commit -m "updating for heroku" && git push heroku master`
       // Run the command
       exec(`gulp`, function (err, stdout, stderr) {
