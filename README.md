@@ -43,11 +43,11 @@ project root
 │       └─── offcanvas.handlebars
 │       └─── sidebar-left.handlebars
 │   └─── partials
-│					... *.handlebars
+│        ... *.handlebars
 │        └─── building-blocks
 └─── models
-│   └─── mongoose     // mongoose schemas 
-│   └─── sequelize		// sequelize schemas
+│   └─── mongoose   // mongoose schemas 
+│   └─── sequelize  // sequelize schemas
 └─── controllers
 │   │   admin.js
 │   │   home.js
